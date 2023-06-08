@@ -1,0 +1,49 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>وابستگان آخوندی</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    
+    <style>
+        .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+    </style>
+
+</head>
+
+<body dir="rtl" style="background-color: lightslategrey;">
+
+    <img src="{% static 'home_page/img/familyimg.jpg' %}" alt="" class="center" usemap="#familymap" style="padding: 10px;">
+
+    <map name="familymap">
+        <area shape="circle" coords="90,300,20" href="FamilyTree/persons/templates/persons/FahimeSadat.html" alt="">
+        <area shape="circle" coords="568,390,20" href="FamilyTree/persons/templates/persons/Mahdi.html" alt="">
+        <area shape="circle" coords="215,225,20" href="FamilyTree/persons/templates/persons/Abolfazl.html" alt="">
+        <area shape="circle" coords="330,320,18" href="FamilyTree/persons/templates/persons/Amir.html" alt="">
+        <area shape="circle" coords="400,342,13" href="FamilyTree/persons/templates/persons/Zohreh.html" alt="">
+        <area shape="circle" coords="475,345,13" href="FamilyTree/persons/templates/persons/Mamani.html" alt="">
+        <area shape="circle" coords="605,300,13" href="FamilyTree/persons/templates/persons/Fatima.html" alt="">
+        <area shape="circle" coords="650,340,13" href="FamilyTree/persons/templates/persons/Babaee.html" alt="">
+        <area shape="circle" coords="705,318,18" href="FamilyTree/persons/templates/persons/Javad.html" alt="">
+        <area shape="circle" coords="772,337,15" href="FamilyTree/persons/templates/persons/Fahime.html" alt="">
+        <area shape="circle" coords="870,256,18" href="FamilyTree/persons/templates/persons/Maryam.html" alt="">
+        <area shape="circle" coords="1000,305,20" href="FamilyTree/persons/templates/persons/Mohsen.html" alt="">
+        <area shape="circle" coords="468,461,15" href="FamilyTree/persons/templates/persons/Taha.html" alt="">
+        <area shape="circle" coords="600,486,13" href="FamilyTree/persons/templates/persons/Sana.html" alt="">
+        <area shape="circle" coords="672,464,13" href="FamilyTree/persons/templates/persons/Tasnim.html" alt="">
+    </map>
+
+</body>
+
+</html>
